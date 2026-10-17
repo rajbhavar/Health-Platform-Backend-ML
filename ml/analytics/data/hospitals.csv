@@ -1,0 +1,6 @@
+hospital_id,status,icu_beds_available
+FAKE-H-1,OPEN,5
+FAKE-H-2,OPEN,1
+FAKE-H-3,OPEN,0
+FAKE-H-4,FULL,0
+FAKE-H-5,CLOSED,3

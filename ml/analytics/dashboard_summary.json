@@ -1,0 +1,110 @@
+{
+  "emergencyCountToday": 8,
+  "activeAmbulances": 3,
+  "hospitalsAvailable": 2,
+  "avgResponseMinutes": 16.5,
+  "priorityAlerts": [
+    {
+      "level": "warning",
+      "text": "Sample alert: an open hospital has 2 or fewer ICU beds."
+    }
+  ],
+  "emergenciesByHour": [
+    {
+      "hour": "00:00",
+      "count": 1
+    },
+    {
+      "hour": "01:00",
+      "count": 0
+    },
+    {
+      "hour": "02:00",
+      "count": 0
+    },
+    {
+      "hour": "03:00",
+      "count": 1
+    },
+    {
+      "hour": "04:00",
+      "count": 0
+    },
+    {
+      "hour": "05:00",
+      "count": 0
+    },
+    {
+      "hour": "06:00",
+      "count": 1
+    },
+    {
+      "hour": "07:00",
+      "count": 0
+    },
+    {
+      "hour": "08:00",
+      "count": 0
+    },
+    {
+      "hour": "09:00",
+      "count": 1
+    },
+    {
+      "hour": "10:00",
+      "count": 0
+    },
+    {
+      "hour": "11:00",
+      "count": 0
+    },
+    {
+      "hour": "12:00",
+      "count": 1
+    },
+    {
+      "hour": "13:00",
+      "count": 0
+    },
+    {
+      "hour": "14:00",
+      "count": 0
+    },
+    {
+      "hour": "15:00",
+      "count": 1
+    },
+    {
+      "hour": "16:00",
+      "count": 0
+    },
+    {
+      "hour": "17:00",
+      "count": 0
+    },
+    {
+      "hour": "18:00",
+      "count": 1
+    },
+    {
+      "hour": "19:00",
+      "count": 0
+    },
+    {
+      "hour": "20:00",
+      "count": 0
+    },
+    {
+      "hour": "21:00",
+      "count": 1
+    },
+    {
+      "hour": "22:00",
+      "count": 0
+    },
+    {
+      "hour": "23:00",
+      "count": 0
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "referenceDate": "2026-10-14",
+  "weeklyEmergencyCount": 65,
+  "hourlyDemandTrendEstimate": [
+    {
+      "hour": "00:00",
+      "estimatedCount": 1.0,
+      "isEstimate": true
+    },
+    {
+      "hour": "01:00",
+      "estimatedCount": 0.5,
+      "isEstimate": true
+    },
+    {
+      "hour": "02:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "03:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "04:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "05:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "06:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "07:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "08:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "09:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "10:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "11:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "12:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "13:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "14:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "15:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "16:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "17:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "18:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "19:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "20:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "21:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "22:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    },
+    {
+      "hour": "23:00",
+      "estimatedCount": 0.33,
+      "isEstimate": true
+    }
+  ],
+  "note": "FAKE DATA. Hourly values are simple descriptive moving-average estimates, not trained ML predictions or observed counts."
+}

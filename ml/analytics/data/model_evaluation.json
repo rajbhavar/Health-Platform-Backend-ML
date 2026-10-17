@@ -1,0 +1,53 @@
+{
+  "modelVersion": "experimental-1",
+  "simulated": true,
+  "trainingData": "FICTIONAL",
+  "models": {
+    "demand": {
+      "modelName": "demand",
+      "modelVersion": "experimental-1",
+      "simulated": true,
+      "trainingRows": 2304,
+      "testingRows": 576,
+      "trainingEnd": "2026-09-20 23:00:00+00:00",
+      "testingStart": "2026-09-21 00:00:00+00:00",
+      "modelMAE": 0.9176,
+      "baselineMAE": 1.0822,
+      "beatsBaseline": true,
+      "predictionUnit": "emergencies_per_hour",
+      "predictionHorizon": "specified_future_hour",
+      "artifact": "demand_model.joblib"
+    },
+    "response_time": {
+      "modelName": "response_time",
+      "modelVersion": "experimental-1",
+      "simulated": true,
+      "trainingRows": 1155,
+      "testingRows": 285,
+      "trainingEnd": "2026-09-21 06:00:00+00:00",
+      "testingStart": "2026-09-21 07:00:00+00:00",
+      "modelMAE": 1.3553,
+      "baselineMAE": 7.5677,
+      "beatsBaseline": true,
+      "predictionUnit": "minutes",
+      "predictionHorizon": "estimated_at_dispatch",
+      "artifact": "response_time_model.joblib"
+    },
+    "hospital_capacity": {
+      "modelName": "hospital_capacity",
+      "modelVersion": "experimental-1",
+      "simulated": true,
+      "trainingRows": 285,
+      "testingRows": 72,
+      "trainingEnd": "2026-09-19 00:00:00",
+      "testingStart": "2026-09-20 00:00:00",
+      "modelMAE": 2.1202,
+      "baselineMAE": 1.9861,
+      "beatsBaseline": false,
+      "predictionUnit": "available_icu_beds",
+      "predictionHorizon": "next_day_end_of_day",
+      "artifact": "hospital_capacity_model.joblib"
+    }
+  },
+  "note": "Experimental demonstration models. Not validated for clinical, dispatch, or hospital operational decisions."
+}
